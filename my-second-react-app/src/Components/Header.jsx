@@ -5,7 +5,7 @@ const Header = () => {
     <div
       className='relative min-h-screen bg-cover bg-center w-full flex flex-col items-center justify-center mb-4 overflow-x-hidden'
       style={{ backgroundImage: "url('/header_img.png')" }}
-      id='Header'
+      id='Home'
     >
     <Navbar />
 
