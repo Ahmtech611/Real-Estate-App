@@ -22,10 +22,10 @@ const Header = () => {
               Projects
             </a>
             <a
-              href='#Contact'
+              href='#Contact Us'
               className='inline-flex items-center justify-center min-h-11 px-5 py-2.5 sm:px-6 sm:py-2 rounded
               bg-blue-500 text-sm sm:text-base whitespace-nowrap shrink-0'
-            id='ContactInfo'>
+            >
               Contact Us
             </a>
           </div>
