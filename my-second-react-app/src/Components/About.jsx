@@ -54,12 +54,12 @@ const About = () => {
           </div>
 
           <p className="mt-6 max-w-xl text-sm leading-relaxed text-gray-500">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+          With over a decade of experience in premium real estate, we've helped 
+          thousands of families find not just a house — but a place to call home. 
+          From modern urban apartments to expansive suburban estates, we guide you 
+          through every step of the journey with transparency, expertise, and care.
           </p>
-
+          
           <button className="mt-5 bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition
           shadow-sm hover:shadow-md active:scale-[0.99]">
             Learn more

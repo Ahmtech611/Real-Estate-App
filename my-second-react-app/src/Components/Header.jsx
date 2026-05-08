@@ -16,14 +16,16 @@ const Header = () => {
           <div className='mt-10 sm:mt-12 flex flex-wrap justify-center items-center gap-3 sm:gap-4'>
             <a
               href='#Projects'
-              className='inline-flex items-center justify-center min-h-11 px-5 py-2.5 sm:px-8 sm:py-2 rounded border border-white text-sm sm:text-base whitespace-nowrap shrink-0'
+              className='inline-flex items-center justify-center min-h-11 px-5 py-2.5 sm:px-8 sm:py-2 rounded
+              border border-white text-sm sm:text-base whitespace-nowrap shrink-0'
             >
               Projects
             </a>
             <a
               href='#Contact'
-              className='inline-flex items-center justify-center min-h-11 px-5 py-2.5 sm:px-6 sm:py-2 rounded bg-blue-500 text-sm sm:text-base whitespace-nowrap shrink-0'
-            >
+              className='inline-flex items-center justify-center min-h-11 px-5 py-2.5 sm:px-6 sm:py-2 rounded
+              bg-blue-500 text-sm sm:text-base whitespace-nowrap shrink-0'
+            id='ContactInfo'>
               Contact Us
             </a>
           </div>
