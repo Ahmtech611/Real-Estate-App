@@ -74,7 +74,8 @@ const Projects = () => {
           style={{ transform: `translateX(-${(CurrentIndex * 100) / cardsToShow}%)` }}
         >
              {projectsData.map((project, index)=>(
-              <div key={index} className="relative flex-shrink-0 w-full
+              <div key={index}  data-aos="fade-up"
+              data-aos-delay={index * 100} className="relative flex-shrink-0 w-full
               sm:w-1/4 ">
                 <img src={project.image} alt={project.title} className="w-full h-auto
               mb-14"/>

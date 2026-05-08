@@ -20,12 +20,14 @@ const About = () => {
 
       <div className="flex flex-col md:flex-row md:items-center md:gap-10 lg:gap-12">
         <img
+         data-aos="fade-right"
           src={assets.brand_img}
           alt="Brand"
           className="w-full md:w-1/2 max-w-md mx-auto rounded-2xl shadow-sm ring-1 ring-gray-900/5"
         />
 
-        <div className="mt-6 md:mt-0 flex flex-col items-start text-gray-600 w-full md:w-1/2 md:justify-center">
+        <div data-aos="fade-left"
+           data-aos-delay="200" className="mt-6 md:mt-0 flex flex-col items-start text-gray-600 w-full md:w-1/2 md:justify-center">
           <div className="grid grid-cols-2 gap-x-10 gap-y-6 w-full">
             <div>
               <p className="font-semibold text-gray-900 text-4xl leading-none tracking-tight">

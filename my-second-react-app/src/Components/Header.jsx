@@ -10,10 +10,12 @@ const Header = () => {
     <Navbar />
 
       <div className='container mx-auto w-full max-w-full px-4 sm:px-6 py-4 md:px-20 lg:px-32 text-center text-white'>
-        <h2 className='text-4xl sm:text-6xl md:text-[82px] inline-block font-semibold max-w-3xl
+        <h2 data-aos="fade-up"
+            data-aos-delay="200"
+            className='text-4xl sm:text-6xl md:text-[82px] inline-block font-semibold max-w-3xl
         pt-20' >
           Explore homes that fit your dreams</h2>
-          <div className='mt-10 sm:mt-12 flex flex-wrap justify-center items-center gap-3 sm:gap-4'>
+          <div data-aos="fade-up" data-aos-delay="400" className='mt-10 sm:mt-12 flex flex-wrap justify-center items-center gap-3 sm:gap-4'>
             <a
               href='#Projects'
               className='inline-flex items-center justify-center min-h-11 px-5 py-2.5 sm:px-8 sm:py-2 rounded

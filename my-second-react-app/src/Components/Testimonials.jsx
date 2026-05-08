@@ -18,6 +18,8 @@ const Testimonials = () => {
         {testimonialsData.map((testimonial, index) => (
           <article
             key={index}
+            data-aos="zoom-in"
+            data-aos-delay={index * 150}
             className="flex h-full flex-col items-center rounded-xl border border-gray-100
             bg-white px-6 py-10 text-center shadow-md transition-shadow duration-300 hover:shadow-lg
             sm:px-8"
